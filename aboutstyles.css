@@ -1,0 +1,99 @@
+
+body {
+
+	color: rgb(125,130,140);
+	background-color: rgb(229,185,190);
+	font-family: helvetica;
+	margin: 50px;
+
+}
+
+div {
+
+	min-height:50vh;
+	width: 100%;
+}
+
+h1, h2 {
+	text-align: left;
+	font-family: Rockness;
+	color: #a80d0d
+
+}
+
+h1 {
+	font-size: 5em;
+}
+
+h2 {
+
+	font- size: 2.5em;
+}
+
+img {
+
+	display: flex;
+	padding: 20px;
+	margin: 0 auto;
+	border-radius:500px;
+
+}
+
+p {
+	width: 40%
+	margin: 10vh 10vw;
+	font-size: 1em;
+
+}
+
+a {
+
+	color: rgb (200,20,30);
+}
+
+ol {
+	list-style: initial;
+	padding: 0;
+	margin-bottom: 10%;
+	font-size: 1.5em;
+	justify-content: space-between;
+}
+
+li#lower {
+	margin-top: 10%;
+}
+
+li#lowest {
+	margin-bottom:14%;
+}
+
+
+div.contrast {
+	opacity: 0.5;
+	background-color: rgb(255,255,255);
+	color: rgb(25,25,25);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+}
+
+li {
+	margin: 20px;
+	transition: 0.6s ease;
+}
+
+li:hover {
+	font-size: 1.2em;
+	transition: 0.6s ease;
+}
+
+
+
+/*cmd + forward slash to add comments*/
+/*color = text color, transitions add animation and ease makes them slowly ease in
